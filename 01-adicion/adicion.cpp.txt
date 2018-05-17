@@ -1,0 +1,19 @@
+/*Adicion
+Trabajo Practico 1
+Grisel Noelia Vera
+20180421
+*/
+
+#include <iostream>
+
+using namespace std;
+
+int main(){
+
+int num1,num2;
+cout<<"Ingrese un numero: ";
+cin>>num1;
+cout<<"\nIngrese otro numero: ";
+cin>>num2;
+cout<<"\nEl resultado es: "<<num1+num2;
+}

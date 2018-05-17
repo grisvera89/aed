@@ -1,0 +1,23 @@
+/*Mayor de dos números
+Trabajo Práctico 3
+Grisel Noelia Vera
+20180429
+*/
+
+#include <iostream>
+
+using namespace std;
+
+int main(){
+float numA,numB;
+cout<<"Ingrese un numero: ";
+cin>>numA;
+cout<<"Ingrese otro numero: ";
+cin>>numB;
+if(numA>numB){
+    cout<<"El mayor es: "<<numA;
+    }else{
+        cout<<"El mayor es: "<<numB;
+    }
+return 0;
+}
